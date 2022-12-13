@@ -1,0 +1,14 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "0zl <https://github.com/0zl>",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "got": "^11.8.6",
+    "mal-scraper": "^2.11.4"
+  }
+}
