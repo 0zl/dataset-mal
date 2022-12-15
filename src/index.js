@@ -145,6 +145,7 @@ class DeepMALScrapper {
         while (this.currentIndex < this.lightData.length) {
             let startTime = Date.now()
 
+            await sleep(1_000)
             let data = await this.doDeepCrawl()
             this.dataCrawled.push(data)
             this.currentIndex++
